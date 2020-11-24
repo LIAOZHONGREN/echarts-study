@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-11-19 09:42:06
- * @LastEditTime: 2020-11-22 22:24:52
+ * @LastEditTime: 2020-11-24 14:47:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \echarts-study\src\echarts\echartsSeriesStudy\components.ts
@@ -23,6 +23,8 @@ import SeriesGraph from './graph'
 import SeriesSankey from './sankey'
 import SeriesFunnel from './funnel'
 import SeriesGauge from './gauge'
+import SeriesCustom from './custom'
+import SeriesLines from './lines'
 
 const components = {
     SeriesLine,
@@ -41,7 +43,9 @@ const components = {
     SeriesGraph,
     SeriesSankey,
     SeriesFunnel,
-    SeriesGauge
+    SeriesGauge,
+    SeriesCustom,
+    SeriesLines
 }
 
 export {
@@ -61,7 +65,9 @@ export {
     SeriesGraph,
     SeriesSankey,
     SeriesFunnel,
-    SeriesGauge
+    SeriesGauge,
+    SeriesCustom,
+    SeriesLines
 }
 
 export default components

@@ -1,9 +1,10 @@
 
 
 import { ref, defineComponent } from "vue";
-import Line from "./echarts/line/line";
+//import Line from "./echarts/line/line";
 //import components from './echarts/echartsComponentStudy/components'
 import components from './echarts/echartsSeriesStudy/components'
+//import Line from './echarts/examples/line/line'
 
 export default defineComponent({
   name: "App",
@@ -11,7 +12,7 @@ export default defineComponent({
   setup() {
     return () => (
       <div>
-        <components.SeriesGauge />
+        <components.SeriesCustom />
       </div>
     )
   },
